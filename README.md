@@ -1,7 +1,7 @@
 # DragAndDropGridSizer
-DragAndDropGridSizer is a custom grid sizer that allows items to be dragged and dropped within the grid. It inherits from wx.FlexGridSizer and shares its behavior for common functionality like setting the number of rows and columns, gaps
+`DragAndDropGridSizer` is a custom grid sizer that allows items to be dragged and dropped within the grid. It inherits from `wx.FlexGridSizer` and shares its behavior for common functionality like setting the number of rows and columns, gaps
 between items, etc.
-The specific features of DragAndDropGridSizer are:
+The specific features of `DragAndDropGridSizer` are:
 
 * Items can be dragged and dropped using the mouse
 * As an item is being dragged, the other items in the grid shift to temporarily free up the slot that the dragged item is hovering over
