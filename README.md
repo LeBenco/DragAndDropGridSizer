@@ -8,7 +8,7 @@ The specific features of `DragAndDropGridSizer` are:
 * When the sizer is used with a scrollable container, it automatically scrolls if the dragged item is moved outside the visible area
 * The dragged item is snapped to the closest available slot when it is dropped
 
-Note that this is a proof of concept, it may need adaptation to fit one's need. Notably, using mouse events for drag&drop may lead to issues if the items managed by the _DragAndDropGridSizer_ are containers with children objects.
+Please note that this is a proof of concept and may require adaptation to meet specific needs. In particular, using mouse events for drag-and-drop functionality may lead to issues if the items managed by the `DragAndDropGridSizer` are containers with child objects.
 
 Example:
 ```python
