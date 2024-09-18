@@ -30,5 +30,4 @@ if __name__ == '__main__':
     app.MainLoop()
 ```
 Result:
-
 ![DnDGS](https://github.com/user-attachments/assets/6ade69cb-fd10-4d0c-8004-58e3a2b85ec9)
