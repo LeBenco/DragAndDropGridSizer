@@ -14,7 +14,7 @@ Example:
 ```python
 if __name__ == '__main__':
     app = wx.App()
-    frame = wx.Frame(None, title="Item Drag and Drop", size=(600, 300))
+    frame = wx.Frame(None, title="Item Drag and Drop", size=(375, 450))
     panel = wx.ScrolledWindow(frame, style=wx.VSCROLL)
     panel.SetScrollRate(20, 20)
     
@@ -29,3 +29,6 @@ if __name__ == '__main__':
     frame.Show()
     app.MainLoop()
 ```
+Result:
+
+![DnDGS](https://github.com/user-attachments/assets/6ade69cb-fd10-4d0c-8004-58e3a2b85ec9)
